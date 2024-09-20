@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    float num1,num2,media;
-    printf("inserisci primo numero:");
-    scanf("%f", &num1);
-    printf("inserisci secondo numero:");
-    scanf("%f", &num2);
-    media=(num1+num2)/2;
-    printf("media = %.2f", media);
+    float base,altezza,area;
+    printf("area triangolo: \n base:");
+    scanf("%f",&base);
+    printf("altezza: ");
+    scanf("%f", &altezza);
+    area = base*altezza/2;
+    printf("area triangolo: %f \n",area);
     return 0;
 }
